@@ -17,6 +17,7 @@ group :development do
   gem 'kramdown'
   gem 'coderay'
   gem 'octopress-deploy'
+  gem 'aws-sdk'
 end
 
 gem 'sinatra', '~> 1.4.2'
