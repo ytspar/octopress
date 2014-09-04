@@ -3,7 +3,41 @@
 //@import "coderay-twilight";
 
 #site-head {
-  background-image: url(/images/cover.jpg);
+  background-color: #FFF;
+  height: 30%;
+}
+
+h1.blog-title a, h1.blog-title a.no-rollover {
+  color: #000;
+  font-family: "Helvetica Neue", "Helvetica";
+  font-size: 80px;
+  line-height: 97px;
+  font-weight: bold;
+  letter-spacing: -2px;
+}
+
+h1.blog-title a, body.post-template .post-header a {
+  // background-image: url("/images/yury.in.png");
+  background-image: url("/images/yury.in_no_avatar.png");
+  text-indent: -9000px;
+  display: block;
+  height: 120px;
+}
+
+h1, h2, h3, h4, h5, h6, .post-meta {
+  font-family: "Helvetica Neue", "Helvetica", "Open Sans", sans-serif;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .post-title {
+  color: #000;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+  color: #D0021B;
+}
+
+.post-meta {
+  margin: 0;
 }
 
 .footnotes {
